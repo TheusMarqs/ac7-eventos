@@ -1,0 +1,82 @@
+:root {
+    --dark-background: rgba(0, 0, 0, 0.753);
+    --dark-background2: rgba(0, 0, 0, 0.877);
+}
+
+.icons {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    opacity: 80%;
+}
+
+.icon-box .icons{
+    cursor: default;
+}
+
+.icon-box .icons:hover{
+    opacity: 100%;
+}
+
+@media (max-width: 992px) {
+    .icons {
+        display: none;
+    }
+}
+
+/* Sobre ac7 */
+.cid-tPQ9sLdeje.dark {
+    background-color: var(--dark-background) !important;
+    color: white !important;
+}
+
+/* Serviços */
+.cid-tMlEXTHLbS.dark {
+    background-color: var(--dark-background2);
+}
+
+/* Form */
+.cid-tJS9pBcTSa.dark {
+    background-color: var(--dark-background);
+    color: white;
+}
+
+/* Contato */
+.cid-tLdYHD757A.dark{ 
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+/* Subtitulo contatos */
+.cid-tLdYHD757A.dark .mbr-section-head { 
+    color: white;
+}
+
+/* Rodapé */
+.cid-tJS9NNcTLZ.dark {
+    background-color: var(--dark-background2);
+    color: white;
+}
+
+.item {
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    margin-top: -10px !important;
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+.dropdown {
+    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+    list-style: none; /* rita a "bolinha" do LI*/
+}
+
+.dropdown-menu {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}

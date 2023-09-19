@@ -80,3 +80,20 @@
     border-top-left-radius: 0 !important;
     border-top-right-radius: 0 !important;
 }
+
+@media (max-width: 990px) {
+    #desktop-profile{
+        display: none;
+    }
+
+    #mobile-profile {
+        display: block;
+    }
+}
+
+@media (min-width: 991px) {
+    #mobile-profile {
+        display: none;
+    }
+}
+
